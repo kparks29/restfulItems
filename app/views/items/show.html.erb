@@ -1,4 +1,6 @@
 <%= @item.name %><br>
 $<%= @item.price %><br>
 <%= @item.description %><br>
-<%= image_tag @item.image_url %>
+<%= image_tag @item.image_url %><br>
+
+<%= link_to "Edit", edit_item_path, class: "btn btn-warning" %>
